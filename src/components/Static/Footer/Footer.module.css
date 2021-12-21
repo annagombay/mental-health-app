@@ -1,0 +1,98 @@
+.Footer {
+    height: 25vw;
+    width: 100vw;
+    background: #227C9D;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5vw;
+}
+
+.Sun {
+    width: 18vw;
+    height: 18vw;
+    position: absolute;
+    top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.KB {
+    height: 25vw;
+    width: 33.3vw;
+    font-family: "Roboto";
+    font-size: 2.9vw;
+    letter-spacing: 0.06vw;
+    font-weight: bold;
+    color: #FFFBF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertical */
+    justify-content: flex-end; /* Horizontal */
+}
+
+.KnowledgeBase {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.H {
+    height: 25vw;
+    width: 33.3vw;
+    font-family: "Roboto";
+    font-size: 2.9vw;
+    letter-spacing: 0.06vw;
+    font-weight: bold;
+    color: #FFFBF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertical */
+    justify-content: flex-end; /* Horizontal */
+}
+
+.Home {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.C {
+    height: 25vw;
+    width: 33.3vw;
+    font-family: "Roboto";
+    font-size: 2.9vw;
+    letter-spacing: 0.06vw;
+    font-weight: bold;
+    color: #FFFBF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertical */
+    justify-content: flex-end; /* Horizontal */
+}
+
+.Community {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer; 
+}

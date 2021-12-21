@@ -1,0 +1,63 @@
+.Backdrop {
+    height: 28vw;
+    width: auto;
+    max-width: 100vw;
+    background-color: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 6vw;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+} 
+
+.Backdrop::-webkit-scrollbar {
+    display: none;
+}
+
+.Channel {
+    width: 30vw;
+    height: 24vw;
+    background-color: #FFCB77;
+    position: relative;
+    border-radius: 7vw;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2vw;
+    padding: 2vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30)); */
+/* 
+    box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30) ; 
+	-webkit-box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30); 
+	-moz-box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30);  */
+}
+
+.IconLrg {
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 6vw;
+    justify-content: center;
+}
+
+.IconText {
+    font-size: 3.8vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    color: #FFFBF7;
+    position: absolute;
+    bottom: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer; 
+}

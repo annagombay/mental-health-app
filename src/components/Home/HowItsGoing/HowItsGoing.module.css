@@ -1,0 +1,16 @@
+.Backdrop {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EBF6FB; 
+}
+
+.HealthStats {
+    width: 100vw;
+    height: 30vw;
+    background: #2A9D81;
+    display: flex;
+    margin-bottom: 6.3vw;
+}

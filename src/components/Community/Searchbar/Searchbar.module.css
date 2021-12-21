@@ -1,0 +1,32 @@
+.Searchbar {
+    width: 100vw;
+    height: 18vw;
+    background-color: #EBF6FB;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Searchbox {
+    width: 87vw; 
+    height: 10vw;
+    border-radius: 4.6vw;
+    background-color: white;
+    border: .5vw solid #FFFBF7;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.Search {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 1.9vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

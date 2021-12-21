@@ -1,0 +1,59 @@
+.Backdrop {
+    width: 100vw;
+    height: 12vw;
+    background-color: rgba(204,255,255, .5);
+    position: sticky;
+    bottom: 26.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* boxWithShadow: { elevation: 5 }; Need to add for Android */
+    box-shadow: 0vw -.24vw .97vw rgba(34, 24, 157 , .25);
+    border-radius: 3vw 3vw 0vw 0vw;
+}
+
+.Textbox {
+    height: 7vw;
+    width: 40vw;
+    font-family: "Roboto";
+    font-size: 3.4vw;
+    letter-spacing: 0.024vw;
+    background: #FFFBF7;
+    color: #999898; 
+    border-radius: .97vw;
+    border: .3vw solid white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0vw 2vw 0vw 2vw;
+    box-shadow: 0vw .24vw .97vw rgba(34, 24, 157 , .25);
+}
+
+.Avatar {
+    width: 12vw;
+    height: 12vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1.1vw;
+    filter: drop-shadow(0vw 0vw 1vw rgba(34, 24, 157 , .25));
+}
+
+.Send {
+    width: 12vw;
+    height: 12vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1.1vw;
+    filter: drop-shadow(0vw 0vw 1vw rgba(34, 24, 157 , .25));
+}

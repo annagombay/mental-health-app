@@ -1,0 +1,28 @@
+.Backdrop {
+    height: 22vw;
+    width: auto;
+    background-color: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+
+.Filter {
+    width: fit-content;
+    height: 8vw;
+    padding: 1vw;
+    background-color: #F9F9F8;
+    border: .3vw solid #FFFBF7;
+    color: #999898;
+    margin-left: 6.5vw;
+    border-radius: 1.9vw;
+    font-family: "Roboto";
+    font-size: 3.9vw;
+    letter-spacing: 0.12vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

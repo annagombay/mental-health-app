@@ -1,0 +1,33 @@
+.Header {
+    height: 16vw;
+    width: 100vw;
+    background: #227C9D;
+    position: sticky;
+    z-index: 5;
+    display: flex;
+}
+
+.Title {
+    font-family: "Corben";
+    font-size: 5.3vw;
+    font-weight: bold;
+    color: #FFFBF7;
+    letter-spacing: .5vw;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    line-height: 16vw;
+    position: sticky;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Settings {
+    height: 16vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 4.6vw;
+    position: sticky;
+}
