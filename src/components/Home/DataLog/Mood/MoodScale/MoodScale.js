@@ -1,4 +1,10 @@
 import React from "react";
+import {
+    // BrowserRouter,
+    // Routes,
+    // Route,
+    Link
+  } from 'react-router-dom';
 import LeftSemiArc from "../../../../SVGs/LeftSemiArc";
 import RightSemiArc from "../../../../SVGs/RightSemiArc";
 import styles from "./MoodScale.module.css";
@@ -16,12 +22,12 @@ class MoodScale extends React.Component {
                     <LeftSparks /> 
                 </div>
 
-                <div className={styles.LeftSemiArc}>
+                <Link to="./Unpleasant" className={styles.LeftSemiArc}>
                     <LeftSemiArc /> 
                     <div className={styles.Unpleasant}>
                       <Unpleasant/>
                     </div>
-                </div>
+                </Link>
                 
                 {/* Perform "select" feedback for LeftSemi
                     LeftSemi turns #227C9D   */}
@@ -50,3 +56,6 @@ class MoodScale extends React.Component {
     }
 
 export default MoodScale; 
+
+
+

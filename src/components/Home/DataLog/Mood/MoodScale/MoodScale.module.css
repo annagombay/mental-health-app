@@ -1,0 +1,85 @@
+.MoodScale {
+    width: 100vw;
+    height: 112vw;
+    background: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.LeftSemi {
+    height: 60vw; 
+    width: 30vw;
+    background: #39ABD4;
+    border-radius: 30vw 0 0 30vw;
+    margin-right: 31vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Unpleasant {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 6vw;
+}
+
+.RightSemi {
+    height: 60vw; 
+    width: 30vw;
+    background: #48CEAD;
+    border-radius: 0 30vw 30vw 0;
+    margin-left: 31vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Pleasant {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 6vw;
+}
+
+.LeftSemiArc {
+    height: 70vw;
+    position: absolute;
+    margin-right: 36vw;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.RightSemiArc {
+    height: 70vw;
+    position: absolute;
+    margin-left: 36vw;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.LeftSparks {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 56vw;
+}
+
+.RightSparks {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 56vw;
+}

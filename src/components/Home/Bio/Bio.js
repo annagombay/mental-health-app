@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Bio.module.css";
+// import ExpandBio from "./ExpandBio/ExpandBio";
 // import Avatar from "../../SVGs/Avatar";
+
+// need to make Header's text "Home"
 
 
 class Bio extends React.Component {
@@ -10,14 +13,13 @@ class Bio extends React.Component {
                 <div>
                     <div className={styles.UserAvatar}>
                     </div>
-                    {/* <Avatar /> */}
                 </div>
                 <div>
                     <div className={styles.UserName}>
                         Jane Doe
                     </div>
                     <div className={styles.AboutUser}>
-                        Realm of the galaxies brain is the seed of intelligence Orion's sword the brain is the seed sword is the seed of  Realm of the galaxies brain is the seed of intelligence Orion's 
+                        Realm of the galaxies brain is the seed of intelligence Orion's sword the brain is the seed sword is the seed of  Realm of the galaxies brain 
                     </div>
                 </div>
             </div> )

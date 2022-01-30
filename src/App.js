@@ -41,7 +41,7 @@ class App extends React.Component {
               <Route path="/*" element={<CommunityPage />} />
               <Route path="/Mood" element={<Mood />} />
             </Routes>
-          <Footer />=
+          <Footer />
         </div>
       </BrowserRouter> );
     }

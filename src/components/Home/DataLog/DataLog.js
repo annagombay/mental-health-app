@@ -11,39 +11,41 @@ class DataLog extends React.Component {
     render() {
         return (
             <div className={styles.Backdrop}>
+                <div className={styles.Container}>
 
-                <Link to="./DataLog/Mood/Mood" className={styles.Logs}>
-                    <div className={styles.Log} >
-                    <div className={styles.IconLrg}>
-                            <div className={styles.IconText}>
-                            Mood
+                    <Link to="./Mood" className={styles.Logs}>
+                        <div className={styles.Log} >
+                        <div className={styles.IconLrg}>
+                                <div className={styles.IconText}>
+                                Mind
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </Link>
+                    </Link>
 
-            <div className={styles.Logs}>
-                <div className={styles.Log}>
-                        <div href="Therapy" className={styles.IconLrg}>
-                            <div className={styles.IconText}>
-                            Body
+                <div className={styles.Logs}>
+                    <div className={styles.Log}>
+                            <div href="Therapy" className={styles.IconLrg}>
+                                <div className={styles.IconText}>
+                                Body
+                                </div>
                             </div>
-                        </div>
-              </div>
-            </div>
-
-            <div className={styles.Logs}>
-                <div className={styles.Log}>
-                        <div href="Relationships" className={styles.IconLrg}>
-                            <div className={styles.IconText}>
-                                Meds
-                            </div>
-                        </div>
                 </div>
-            </div>
+                </div>
 
-          </div>
-        )
+                <div className={styles.Logs}>
+                    <div className={styles.Log}>
+                            <div href="Relationships" className={styles.IconLrg}>
+                                <div className={styles.IconText}>
+                                    Meds
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            )
       }
     }
 
