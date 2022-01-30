@@ -1,0 +1,152 @@
+/* add dots between missed days */
+
+.Container {
+    width: 100vw;
+    height: fit-content;
+    background-color: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Journal { 
+    height: 61vw;
+    width: 87vw;
+    position: relative;
+    background-color: #FFFBF7;
+    border-radius: 2.9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.3vw;
+    border: .4vw solid #227C9D;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.JournalHeader {
+    width: 87vw;
+    height: 12vw;
+    background-color: #227C9D;
+    color: #FFFDFA;
+    border-radius: 2vw 2vw 0 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Corben";
+    font-size: 3.9vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    line-height: 11.5vw;
+    z-index: 3;
+    margin-top: 6.6vw;
+}
+
+.Entries {
+    width: 77vw;
+    height: fit-content;
+    display: grid;    
+    margin-top: 15.4vw;
+}
+
+.Entry {
+    width: 77vw;
+    height: 24vw;
+    margin-bottom: 2vw;
+    border: .4vw solid #227C9D;
+    margin-left: 4.5vw;
+    position: relative;
+    display: grid;
+}
+
+.Calendar {
+    height: 8vw;
+    width: 16vw;
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Day {   
+    height: 8vw;
+    width: 16vw;
+    font-family: "Roboto";
+    background: #7AAFC1;
+    font-size: 3.9vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    line-height: 8vw;
+    color: #FFFBF7;
+    letter-spacing: 0.06vw;
+    display: grid;
+    justify-content: center;
+    border-right: .4vw solid #227C9D;
+    border-bottom: .4vw solid #227C9D;
+    margin-top: -.1vw;
+    margin-left: -.1vw;
+}
+
+.Number {
+    width: 16vw;
+    height: 16vw;
+    line-height: 16vw;
+    font-family: "Roboto";
+    font-size: 6vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    color: #227C9D;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: .4vw solid #227C9D;
+    margin-top: -.1vw;
+    margin-left: -.1vw;
+}
+
+.Tags {
+    height: 8vw;
+    width: 61vw;
+    font-family: "Roboto";
+    font-size: 3.9vw;
+    font-weight: bold;
+    color: #227C9D;
+    letter-spacing: 0.06vw;
+    line-height: 8vw;
+    display: grid;
+    grid-area: 1 / 2 / 1 / 2; 
+}
+
+.Tag {
+    margin-left: 3vw;
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+}
+
+.Time {
+    grid-area: 1 / 2 / 2 / 3; 
+    font-family: "Roboto";
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: #1D1C16;
+    letter-spacing: 0.06vw;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    margin-right: 3vw;
+}
+
+.Content {
+    grid-area: 2 / 3 / 2 / 2;
+    position: relative; 
+    display: flex;
+    font-family: "Roboto";
+    font-size: 3.8vw;
+    color: #46464F;
+    letter-spacing: 0.06vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    /* overflow: hidden;
+    flex-wrap: nowrap; */
+}
