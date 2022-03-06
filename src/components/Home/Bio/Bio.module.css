@@ -1,8 +1,9 @@
 .Backdrop {
     width: 100vw;
-    height: fit-content;
+    height: 40vw;
     display: flex;
-    background-color: #FFFBF7; 
+    flex-direction: row;
+    background-color: #FFFDFA; 
 }
 
 .UserAvatar {
@@ -10,22 +11,25 @@
     height: 25vw;
     border-radius: 1vw;
     background: #FFD186;
-    margin: 6.3vw;
-    margin-top: 8vw;
+    margin-left: 6.3vw;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .UserName {
+    font-family: "Roboto";
+    font-size: 3.9vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    color: #1D1C16;
     margin-top: 6.3vw;
     display: flex;
     flex-direction: column;
-    font-family: "Corben";
-    font-size: 3.9vw;
-    font-weight: bold;
-    color: #227C9D;
-    letter-spacing: 0.06vw;
-    padding-bottom: 2.9vw;
+    margin-left: 6.3vw;
+
 }
 
 .AboutUser {
@@ -39,4 +43,6 @@
     font-size: 3.4vw;
     color: #46464F;
     letter-spacing: 0.06vw;
+    margin-left: 6.3vw;
+    margin-top: 2.9vw;
 }

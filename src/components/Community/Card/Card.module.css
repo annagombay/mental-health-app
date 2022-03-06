@@ -35,8 +35,8 @@
 }
 
 .Upvote {
-    /* width: 11.7vw;
-    height: 11.7vw; */
+    width: 11.7vw;
+    height: 11.7vw;
     grid-area: 1 / 1 / 2 / 2;
     position: absolute;
     bottom: 0;
@@ -68,11 +68,12 @@
 /* Tags & Time */
 
 .Tags {
-    height: 16.5vw;
+    height: 8.25vw;
     width: 75.7vw;
     position: absolute;
     right: 0;
 }
+/*  Collapse username & channel, add colour in JSS "state"  */
 
 .Username {
     height: fit-content;
@@ -91,7 +92,7 @@
     margin-left: 2.9vw;
     display: inline;
     filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
-    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .15));
 
 }
 
@@ -113,7 +114,7 @@
     margin-left: 1vw;
     display: inline;
     filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
-    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .15));
 
 }
 

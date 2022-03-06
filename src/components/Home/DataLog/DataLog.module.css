@@ -1,20 +1,20 @@
 .Backdrop {
     width: 100vw;
-    height: 32.2vw;
+    height: 63vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #EBF6FB; 
+    background-color: #FFFDFA; 
 }
 
 .Container {
     width: 94vw;
-    height: 24vw;
+    /* height: 24vw; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 2.9vw;
+    padding-right: 2.9vw;
 }
 
 .Backdrop::-webkit-scrollbar {
@@ -24,49 +24,47 @@
 .Logs {
     width: 100vw;
     height: 24vw;
-    padding-left: 3.6vw;
-    padding-right: 3.6vw;
     padding-top: 3.6vw;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
 }
-.Log {
+
+/* .Log {
     width: 24vw;
-    height: 24vw;
-    background-color: #227C9D;
-    border-radius: 8vw;
+    height: 50vw;
+    background-color: #EBF6FB;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6.3vw;
-    margin-bottom: 6.3vw;
-    /* position: relative; */
-    /* filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
-    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30)); */
-/* 
-    box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30) ; 
-	-webkit-box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30); 
-	-moz-box-shadow: .49vw .73vw 3.4vw rgba(34, 124, 157, .30);  */
-}
+} */
 
-.IconLrg {
+/* .IconLrg {
     display: inline-flex;
     position: relative;
     padding-bottom: 6vw;
     justify-content: center;
-}
+} */
 
-.IconText {
+
+.Header {
     font-size: 3.8vw;
     font-family: "Roboto";
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     letter-spacing: 0.06vw;
-    color: #FFFBF7;
-    position: absolute;
-    bottom: 0;
+    color: #227C9D;
+    margin-top: 2vw;
 }
 
-button {
+/* .Logs {
     outline: none;
     border: none;
     background: none;
-    cursor: pointer; 
-}
+    cursor: pointer;
+
+} */

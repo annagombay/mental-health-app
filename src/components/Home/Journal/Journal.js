@@ -7,9 +7,11 @@ class Journal extends React.Component {
     render() {
         return (
         <div className={styles.Container}>
+
             <div className={styles.JournalHeader}> 
                 Journal
             </div>
+
             <div className={styles.Journal}>
                 <div className={styles.Entries}> 
                     <div className={styles.Entry}>
@@ -33,6 +35,7 @@ class Journal extends React.Component {
                         Too many days I have spent feeling like I could feel the inside of my mind... more
                         </div>
                     </div>
+
                     <div className={styles.Entry}>
                         <div className={styles.Calendar}>
                             <div className={styles.Day}>
@@ -55,8 +58,10 @@ class Journal extends React.Component {
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div> )
+
+        </div>)
     }
 }
 

@@ -7,20 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.Journal { 
-    height: 61vw;
-    width: 87vw;
-    position: relative;
-    background-color: #FFFBF7;
-    border-radius: 2.9vw;
-    display: flex;
-    flex-direction: row;
-    margin-top: 6.3vw;
-    border: .4vw solid #227C9D;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    padding-top: 5.8vw;
 }
 
 .JournalHeader {
@@ -28,9 +15,9 @@
     height: 12vw;
     background-color: #227C9D;
     color: #FFFDFA;
-    border-radius: 2vw 2vw 0 0;
     position: absolute;
     display: flex;
+    border-radius: 2.9vw 2.9vw 0 0;
     flex-direction: row;
     justify-content: center;
     font-family: "Corben";
@@ -39,7 +26,23 @@
     letter-spacing: 0.06vw;
     line-height: 11.5vw;
     z-index: 3;
-    margin-top: 6.6vw;
+    /* margin-top: 6.6vw; */
+}
+
+.Journal { 
+    width: 87vw;
+    height: 61vw;
+    position: relative;
+    background-color: #FFFDFA;
+    border-radius: 2.9vw;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 6.3vw; */
+    /* border: .4vw solid #227C9D; */
+    filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30));
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .Entries {
@@ -50,13 +53,16 @@
 }
 
 .Entry {
-    width: 77vw;
+    width: 80vw;
     height: 24vw;
     margin-bottom: 2vw;
-    border: .4vw solid #227C9D;
-    margin-left: 4.5vw;
+    border: .3vw solid #999898;
+    border-radius: 2.9vw;
+    margin-left: 3vw;
     position: relative;
     display: grid;
+    background-color: #FFFDFA;
+
 }
 
 .Calendar {
@@ -68,25 +74,26 @@
 
 .Day {   
     height: 8vw;
-    width: 16vw;
+    width: 14vw;
     font-family: "Roboto";
-    background: #7AAFC1;
+    background: #EBF6FB;
     font-size: 3.9vw;
     font-weight: bold;
     letter-spacing: 0.06vw;
     line-height: 8vw;
-    color: #FFFBF7;
+    color: #227C9D;
     letter-spacing: 0.06vw;
     display: grid;
     justify-content: center;
-    border-right: .4vw solid #227C9D;
-    border-bottom: .4vw solid #227C9D;
-    margin-top: -.1vw;
-    margin-left: -.1vw;
+    border-right: .3vw solid #999898;
+    border-bottom: .3vw solid #999898;
+    border-radius: 2.6vw 0 0 0;
+    /* margin-top: -.1vw;
+    margin-left: -.1vw; */
 }
 
 .Number {
-    width: 16vw;
+    width: 14vw;
     height: 16vw;
     line-height: 16vw;
     font-family: "Roboto";
@@ -99,9 +106,9 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    border-right: .4vw solid #227C9D;
-    margin-top: -.1vw;
-    margin-left: -.1vw;
+    border-right: .3vw solid #999898;
+    /* margin-top: -.1vw; */
+    /* margin-left: -.1vw; */
 }
 
 .Tags {
@@ -118,7 +125,7 @@
 }
 
 .Tag {
-    margin-left: 3vw;
+    margin-left: 2vw;
     display: flex;
     flex: row;
     justify-content: flex-start;
@@ -127,14 +134,14 @@
 .Time {
     grid-area: 1 / 2 / 2 / 3; 
     font-family: "Roboto";
-    font-size: 3.8vw;
+    font-size: 3.4vw;
     font-weight: 400;
     color: #1D1C16;
     letter-spacing: 0.06vw;
     display: flex;
     flex: row;
     justify-content: flex-end;
-    margin-right: 3vw;
+    margin-right: 2vw;
 }
 
 .Content {
@@ -142,11 +149,11 @@
     position: relative; 
     display: flex;
     font-family: "Roboto";
-    font-size: 3.8vw;
+    font-size: 3.4vw;
     color: #46464F;
     letter-spacing: 0.06vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     /* overflow: hidden;
     flex-wrap: nowrap; */
 }

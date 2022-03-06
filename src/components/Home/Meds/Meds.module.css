@@ -1,0 +1,133 @@
+
+.Container {
+    width: 100vw;
+    height: fit-content;
+    background-color: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5.8vw;
+}
+
+.MedsHeader {
+    width: 87vw;
+    height: 12vw;
+    background-color: #227C9D;
+    color: #FFFDFA;
+    position: absolute;
+    display: flex;
+    border-radius: 2.9vw 2.9vw 0 0;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Corben";
+    font-size: 3.9vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    line-height: 11.5vw;
+    z-index: 3;
+    /* margin-top: 6.6vw; */
+}
+
+.Meds { 
+    width: 87vw;
+    height: 61vw;
+    position: relative;
+    background-color: #FFFDFA;
+    border-radius: 2.9vw;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 6.3vw; */
+    /* border: .4vw solid #227C9D; */
+    filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .30));
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.Container {
+    width: 100vw;
+    height: 61vw;
+    background-color: #EBF6FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5.8vw;
+}
+
+.Header {
+    width: 87vw;
+    height: 12vw;
+    background-color: #227C9D;
+    color: #FFFDFA;
+    position: absolute;
+    border-radius: 2.9vw 2.9vw 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Corben";
+    font-size: 3.9vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    line-height: 11.5vw;
+    z-index: 3;
+}
+
+.Backdrop { 
+    width: 87vw;
+    height: 61vw;
+    border-radius: 2.9vw;
+    background-color: #FFFDFA;
+    filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .15));
+    display: flex;
+    flex-flow: column nowrap;
+    overflow-x: auto;
+}
+
+.PlaceHolder {
+    width: 43.5vw;
+    /* height: 30.5vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Roboto";
+    font-size: 3.4vw;
+    color: #46464F;
+    letter-spacing: 0.06vw;
+    margin-left: 6.3vw;
+    margin-top: 6.3vw;
+}
+
+.Button {
+    height: fit-content;
+    width: fit-content;
+    font-family: "Roboto";
+    font-size: 3vw;
+    font-weight: bold;
+    letter-spacing: 0.06vw;
+    background-color: #227C9D;
+    color: #FFFBF7;
+    border-radius: 20vw;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.3vw;
+    filter: drop-shadow(0vw 1vw 2vw rgba(34, 124, 157, .15));
+    filter: drop-shadow(0vw .24vw .73vw rgba(34, 124, 157, .15));
+}
+
+.MedicationPill {
+    width: 87vw;
+    height: 61vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    margin-left: -6.3vw;
+}
+
